@@ -1,0 +1,49 @@
+# config.yaml
+
+materials:
+  small_deformation:
+    interface: 0.8
+    Rg: 8.3145
+    T: 300
+    J0: 1.0
+    material_a: 
+      D: 0.0708
+      v: 0.3
+      omiga: 0.3497
+      E: 10.0
+    material_b:
+      D: 0.39
+      v: 0.3
+      omiga: 0.4926
+      E: 15.0
+
+  softening_modulus:
+    interface: 0.8
+    Rg: 8.3145
+    T: 300
+    J0: 1.0
+    Cmax: 2.6014
+    material_a: 
+      D: 1.0
+      v: 0.22
+      omiga: 1.2052  
+    material_b:
+      D: 0.39
+      v: 0.3
+      omiga: 0.4926
+      E: 15.0
+
+  moving_interface:
+    Rg: 8.3145
+    T: 300
+    J0: 1.0
+    material_a: 
+      D: 0.1
+      v: 0.22
+      omiga: 0.8
+      E: 170.0 
+    material_b:
+      D: 1.0
+      v: 0.3
+      omiga: 0.855
+      E: 38.0
