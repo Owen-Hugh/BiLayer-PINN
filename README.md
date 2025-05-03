@@ -1,5 +1,4 @@
-# Domain Decomposed Physics-Informed Neural Networks  
-# for Coupled Diffusion and Deformation in Bilayer Electrode Materials
+# Domain Decomposed Physics-Informed Neural Networks for Coupled Diffusion and Deformation in Bilayer Electrode Materials
 
 ---
 
