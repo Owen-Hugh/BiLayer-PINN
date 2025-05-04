@@ -5,18 +5,11 @@
 ## Project Overview
 This project develops a domain-decomposed Physics-Informed Neural Network (PINN) framework to simulate the coupled diffusion and mechanical deformation in bilayer electrode materials, commonly used in lithium-ion batteries.  
 
-To address material heterogeneities and discontinuities at interfaces, separate subnetworks are constructed for modeling the concentration and displacement fields within each subdomain, with enforced interface continuity conditions.
-
 Two subnetwork optimization strategies are systematically investigated:
 - **X-type (Simultaneous training)**
 - **AX-type (Alternating training)**
 
 Both **strong-form** and **energy-form** formulations are considered.
-
-Three representative numerical cases validate the proposed framework's accuracy and robustness.  
-Comparisons against high-fidelity finite element method (FEM) solutions show:
-- Strong-form PINNs achieve excellent accuracy for simple coupled scenarios
-- Energy-form approaches, especially combined with AX-type optimization, demonstrate superior stability and robustness in handling highly nonlinear behaviors and dynamic interface evolution.
 ---
 
 ## Method Summary
